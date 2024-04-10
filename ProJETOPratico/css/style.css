@@ -10,3 +10,45 @@ section{
     .menu ul li{
           display: inline;
     }
+    header {
+        padding: 20px 0;
+    }
+    .logo,.menu {
+      display: inline-block;
+    }
+    .menu ul li a{
+        color: #dc0502;
+        text-decoration: none;
+
+    }
+    .menu ul li a{
+        display: inline;
+        padding: 0 25px;
+        font-size: 20px;
+    }
+    .menu {
+        position: relative;
+        bottom: 40px;
+    }
+    .menu ul li a:hover{
+      color:  #000;
+      border-bottom: 3px solid #000;
+      padding-bottom: 15px;    
+     
+    }
+    .slider{
+        background-image: url("../img/slider.jpeg");
+        height: 500px;
+        background-position-x: center;
+        background-position-y:c  center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .item {
+        display: inline-block;
+        width: 30%;
+        margin: 1%;    
+    }
+    .item img{
+        width: 100%;
+    }
